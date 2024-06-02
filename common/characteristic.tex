@@ -91,16 +91,16 @@
         %
         \nocite{*}%
         %
-        {\publications} Основные результаты по теме диссертации изложены в~\arabic{citeauthor}~печатных изданиях,
-        \arabic{citeauthorvak} из которых изданы в журналах, рекомендованных ВАК\sloppy%
-        \ifnum \value{citeauthorscopuswos}>0%
-            , \arabic{citeauthorscopuswos} "--- в~периодических научных журналах, индексируемых Web of~Science и Scopus\sloppy%
-        \fi%
-        \ifnum \value{citeauthorconf}>0%
-            , \arabic{citeauthorconf} "--- в~тезисах докладов.
-        \else%
-            .
-        \fi%
+        {\publications} Основные результаты по теме диссертации изложены в~\arabic{citeauthor}~рецензируемых научных журналах, определенных ВАК РФ и Аттестационным советом УрФУ.
+        %\arabic{citeauthorvak} из которых изданы в журналах, рекомендованных ВАК\sloppy%
+        % \ifnum \value{citeauthorscopuswos}>0%
+        %     , \arabic{citeauthorscopuswos} "--- в~рецензируемых научных журналах, определенных ВАК РФ и Аттестационным советом УрФУ\sloppy%
+        % \fi%
+        % \ifnum \value{citeauthorconf}>0%
+        %     , \arabic{citeauthorconf} "--- в~тезисах докладов.
+        % \else%
+        %     .
+        % \fi%
         \ifnum \value{citeregistered}=1%
             \ifnum \value{citeauthorpatent}=1%
                 Зарегистрирован \arabic{citeauthorpatent} патент.
